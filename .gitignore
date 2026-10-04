@@ -1,0 +1,6 @@
+results/*
+!results/.gitkeep
+cache/*
+!cache/.gitkeep
+__pycache__/
+.env

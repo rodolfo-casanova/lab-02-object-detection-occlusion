@@ -1,0 +1,13 @@
+# PyTorch (CPU) is installed separately in the Dockerfile.
+numpy==1.26.4
+opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
+scipy==1.13.1
+pandas==2.2.3
+matplotlib==3.9.2
+Pillow==10.4.0
+ultralytics==8.3.40
+onnx==1.16.2
+onnxruntime==1.19.2
+mlflow-skinny==2.16.2
+boto3==1.35.36

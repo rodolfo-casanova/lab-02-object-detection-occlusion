@@ -1,0 +1,17 @@
+name: detection
+services:
+  detection:
+    build: .
+    env_file: .env
+    command: python -m detection.run
+    volumes:
+      - ./results:/app/results
+      - ./cache:/app/cache
+  training:
+    build: .
+    profiles: ["gpu"]
+    env_file: .env
+    command: python -m detection.train_demo
+    volumes:
+      - ./results:/app/results
+      - ./cache:/app/cache

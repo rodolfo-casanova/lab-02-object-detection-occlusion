@@ -1,0 +1,7 @@
+results/
+cache/
+data/
+**/__pycache__
+*.zip
+.git
+.env
